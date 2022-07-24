@@ -1,0 +1,54 @@
+main {
+   display: flex;
+   gap: 2.5rem;
+   justify-content: center;
+   gap: 2rem;
+   align-items: center;
+}
+
+.main__desc {
+   display: flex;
+   flex-direction: column;
+   gap: 2.5rem;
+   width: 48%;
+}
+
+h1 {
+   font-size: 4.5rem;
+}
+
+.main__desc > p {
+   font-size: 1.125rem;
+   line-height: 2rem;
+   color: var(--medium-gray);
+   max-width: 450px;
+}
+
+.desc__button {
+   background: var(--almost-black);
+   padding: 1rem 1rem;
+   border-radius: 1rem;
+   color: var(--almost-white);
+   max-width: 150px;
+   border: 1px solid var(--almost-black);
+   cursor: pointer;
+   transition: 0.2s all;
+}
+
+.desc__button:hover {
+   background: none;
+   color: var(--almost-black);
+}
+
+.desc__brands {
+   display: flex;
+   align-items: center;
+   margin-top: 5rem;
+   gap: 2.5rem;
+}
+
+.main__image-wrapper > img {
+   width: auto;
+   max-height: 700px;
+   max-width: 100%;
+}

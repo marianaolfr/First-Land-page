@@ -1,0 +1,47 @@
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 15vh;
+   min-height: 80px;
+}
+
+header * {
+   color: var(--medium-gray);
+   transition: 0.2s color ease-in-out;
+}
+
+header a:hover,
+header button:hover {
+   color: var(--almost-black);
+}
+
+.header__nav-wrapper {
+   display: flex;
+   align-items: center;
+   gap: 2.5rem;
+}
+
+nav > ul {
+   display: flex;
+   gap: 2.5rem;
+}
+
+.header__login-wrapper {
+   display: flex;
+   gap: 2.5rem;
+}
+
+.header__login-wrapper button {
+   cursor: pointer;
+}
+
+.login-wrapper-button {
+   border: 1px solid var(--medium-gray);
+   padding: 0.75rem 1rem;
+   border-radius: 1rem;
+}
+
+.login-wrapper-button:hover {
+   border-color: var(--almost-black);
+}
