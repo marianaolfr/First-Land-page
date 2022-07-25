@@ -27,6 +27,43 @@ nav > ul {
    gap: 2.5rem;
 }
 
+.nav__menu-toggler {
+   position: relative;
+}
+
+.menu-toggler a {
+   display: flex;
+   align-items: center;
+   gap: .5rem;
+}
+
+.nav__menu-toggler svg {
+   transform: rotate(180deg);
+}
+
+.nav__menu-toggler .submenu {
+   display: flex;
+}
+
+.submenu {
+   padding: .75rem 1.25rem;
+   box-shadow: 2px 3px 39px 5px rgba(0,0,0,0.18)
+   ;
+   display: none;
+   flex-direction: column;
+   position: absolute;
+   border-radius: .25rem;
+   z-index: 10;
+   left: -1rem;
+}
+
+.submenu > li {
+   display: flex;
+   gap: .5rem;
+   align-items: center;
+   padding: .5rem 0;
+}
+
 .header__login-wrapper {
    display: flex;
    gap: 2.5rem;
